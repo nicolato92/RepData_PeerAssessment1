@@ -72,7 +72,7 @@ gg_timeserie<-ggplot(agg_average, aes(interval,steps))+geom_line()+labs(title="T
 gg_timeserie
 ```
 
-![](PA1_template_files/figure-html/timeserie-1.png)<!-- -->
+![](timeserie-1.png)<!-- -->
 
 2. To find the interval with the maximun average number of steps is used the "which.max" function:
 
@@ -128,7 +128,7 @@ gg_histfilled+labs(title = "Histogram of total number of steps taken each day (F
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](PA1_template_files/figure-html/histogram_filled-1.png)<!-- -->
+![](histogram_filled-1.png)<!-- -->
 
 
 ```r
@@ -172,7 +172,7 @@ wd_timeserie<-ggplot(agg_averagewd, aes(interval,steps))+geom_line()+facet_grid(
 wd_timeserie
 ```
 
-![](PA1_template_files/figure-html/timeserie_wd-1.png)<!-- -->
+![](timeserie_wd-1.png)<!-- -->
 
 As it can be observed, there are clear differences between weekdays and weekend, for example, in weekdays is the peak of average steps, but after the number of steps falls bellow 125-100 steps, while in weekend the average steps is over 100-150 steps in various of the intervals.
 
