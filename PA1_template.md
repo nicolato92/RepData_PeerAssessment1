@@ -1,15 +1,5 @@
----
-title: "Reproducible Research | Course Project 1"
-author: "Nicolas Lara Torres"
-date: "30 de marzo de 2020"
-output:
-  html_document:
-    fig_caption: yes
-    keep_md: yes
-  pdf_document: default
----
-
-
+# Reproducible Research | Course Project 1
+## Nicolas Lara Torres
 
 ### Loading and Preprocessing the data
 
