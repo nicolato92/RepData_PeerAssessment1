@@ -50,7 +50,7 @@ gg_hist+labs(title = "Histogram of total number of steps taken each day")+theme_
 ## `stat_bin()` using `bins = 30`. Pick better value with `binwidth`.
 ```
 
-![](PA1_template_files/figure-html/histogram-1.png)<!-- -->
+![](histogram-1.png)<!-- -->
 
 3. The mean and median of the total number of steps is calculated in this way:
 
